@@ -5,6 +5,10 @@ public class OnlinePurchaseManager
   * instantiated in the constructor.
   */
   private ArrayList<Gizmo> purchases;
+
+  public OnlinePurchaseManager(){
+    purchases = new ArrayList<Gizmo>();
+  }
   
   /** Returns the number of purchased Gizmo objects that are electronic
   * whose manufacturer is maker, as described in part (a).
