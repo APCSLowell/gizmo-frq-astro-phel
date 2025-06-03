@@ -29,4 +29,5 @@ public class OnlinePurchaseManager
       if(purchases.get(i).equals(purchases.get(i+1)))
         return true;
     return false;
+  }
 }
