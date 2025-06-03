@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class OnlinePurchaseManager
 {
   /** An ArrayList of purchased Gizmo objects,
-  * instantiated in the constructor.
+  * instantiated at declaration.
   */
   private ArrayList<Gizmo> purchases = new ArrayList<Gizmo>();
 
