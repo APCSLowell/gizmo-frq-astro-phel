@@ -36,4 +36,8 @@ public class OnlinePurchaseManager
     }
     return false;
   }
+
+  public void addPurchase(Gizmo g){
+    purchases.add(g);
+  }
 }
